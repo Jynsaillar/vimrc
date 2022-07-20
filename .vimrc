@@ -36,6 +36,10 @@ Plug 'puremourning/vimspector'
 Plug 'andymass/vim-matchup'
 " Vim Git integration
 Plug 'tpope/vim-fugitive'
+" Airline status bar
+Plug 'vim-airline/vim-airline'
+" tt.vim: Configurable timer
+Plug 'mkropat/vim-tt'
 call plug#end()
 
 " ALE asynchronous linter : https://github.com/dense-analysis/ale
@@ -122,6 +126,9 @@ let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
 " If you want :UltiSnipsEdit to split your window.
 let g:UltiSnipsEditSplit="vertical"
+
+" tt.vim Configuration : https://github.com/mkropat/vim-tt
+let g:tt_use_defaults = 1
 
 " Colorscheme gruvbox-material : https://github.com/sainnhe/gruvbox-material/
 
