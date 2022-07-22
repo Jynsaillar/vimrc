@@ -128,7 +128,11 @@ let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 let g:UltiSnipsEditSplit="vertical"
 
 " tt.vim Configuration : https://github.com/mkropat/vim-tt
-let g:tt_use_defaults = 1
+let g:tt_use_defaults = 0
+let g:tt_taskfile ="./tt.tasks"
+
+" Custom configs for vim-tt plugin
+source ~/.vim/userconfigs/vim-tt.vim
 
 " Colorscheme gruvbox-material : https://github.com/sainnhe/gruvbox-material/
 
@@ -172,3 +176,4 @@ nnoremap <c-z> <nop> " Unmaps 'Ctrl Z' to not return to terminal without warning
 inoremap {<cr> {<cr>}<c-o>O<tab>
 inoremap [<cr> [<cr>]<c-o>O<tab>
 inoremap (<cr> (<cr>)<c-o>O<tab>
+
