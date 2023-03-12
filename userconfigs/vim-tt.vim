@@ -75,3 +75,7 @@ nnoremap <Leader>tp :ToggleTimer<cr>
 nnoremap <Leader>ts :ShowTimer<cr>
 nnoremap <Leader>tt :OpenTasks<cr>
 nnoremap <Leader>tw :Work<cr>
+
+" tt.vim Configuration : https://github.com/mkropat/vim-tt
+let g:tt_use_defaults = 0
+let g:tt_taskfile ="./tt.tasks"
